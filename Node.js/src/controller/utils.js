@@ -1,7 +1,4 @@
-/**
- * @description utils controller
- * @author 双越老师
- */
+
 
 const path = require('path')
 const { ErrorModel, SuccessModel } = require('../model/ResModel')

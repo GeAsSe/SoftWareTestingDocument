@@ -1,7 +1,4 @@
-/**
- * @description 加密方法
- * @author 双越老师
- */
+
 
 const crypto = require('crypto')
 const { CRYPTO_SECRET_KEY } = require('../conf/secretKeys')

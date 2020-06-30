@@ -1,7 +1,4 @@
-/**
- * @description 个人主页 controller
- * @author 双越老师
- */
+
 
 const { getBlogListByUser } = require('../services/blog')
 const { PAGE_SIZE } = require('../conf/constant')

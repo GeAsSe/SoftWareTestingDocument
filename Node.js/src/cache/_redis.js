@@ -1,7 +1,3 @@
-/**
- * @description 连接 redis 的方法 get set
- * @author 双越老师
- */
 
 const redis = require('redis')
 const { REDIS_CONF } = require('../conf/db')

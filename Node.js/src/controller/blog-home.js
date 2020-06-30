@@ -1,7 +1,4 @@
-/**
- * @description 首页 controller
- * @author 双越老师
- */
+
 
 const xss = require('xss')
 const { createBlog, getFollowersBlogList } = require('../services/blog')

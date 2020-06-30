@@ -1,7 +1,4 @@
-/**
- * @description 广场页 controller
- * @author 双越老师
- */
+
 
 const { PAGE_SIZE } = require('../conf/constant')
 const { SuccessModel } = require('../model/ResModel')

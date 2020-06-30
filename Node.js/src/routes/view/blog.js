@@ -1,7 +1,4 @@
-/**
- * @description 微博 view 路由
- * @author 双越老师
- */
+
 
 const router = require('koa-router')()
 const { loginRedirect } = require('../../middlewares/loginChecks')

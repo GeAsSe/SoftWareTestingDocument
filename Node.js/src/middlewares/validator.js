@@ -1,7 +1,4 @@
-/**
- * @description json schema 验证中间件
- * @author 双越老师
- */
+
 
 const { ErrorModel } = require('../model/ResModel')
 const { jsonSchemaFileInfo } = require('../model/ErrorInfo')

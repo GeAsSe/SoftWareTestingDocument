@@ -1,8 +1,3 @@
-/**
- * @description 微博缓存层
- * @author 双越老师
- */
-
 const { get, set } = require('./_redis')
 const { getBlogListByUser } = require('../services/blog')
 

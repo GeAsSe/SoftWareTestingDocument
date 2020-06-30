@@ -1,7 +1,3 @@
-/**
- * @description 用户关系 controller
- * @author 双越老师
- */
 
 const {
     getUsersByFollower,

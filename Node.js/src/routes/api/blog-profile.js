@@ -1,7 +1,4 @@
-/**
- * @description 个人主页 API 路由
- * @author 双越老师
- */
+
 
 const router = require('koa-router')()
 const { loginCheck } = require('../../middlewares/loginChecks')

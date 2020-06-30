@@ -1,7 +1,4 @@
-/**
- * @description 微博 @ 用户关系 service
- * @author 双越老师
- */
+
 
 const { AtRelation, Blog, User } = require('../db/model/index')
 const { formatBlog, formatUser } = require('./_format')

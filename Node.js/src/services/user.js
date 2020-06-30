@@ -1,7 +1,4 @@
-/**
- * @description user service
- * @author 双越老师
- */
+
 
 const { User } = require('../db/model/index')
 const { formatUser } = require('./_format')

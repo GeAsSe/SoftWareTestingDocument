@@ -1,7 +1,3 @@
-/**
- * @description res 的数据模型
- * @author 双越老师
- */
 
 /**
  * 基础模块

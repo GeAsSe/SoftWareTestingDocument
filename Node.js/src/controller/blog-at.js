@@ -1,7 +1,3 @@
-/**
- * @description 微博 @ 关系 controller
- * @author 双越老师
- */
 
 const {
     getAtRelationCount,
