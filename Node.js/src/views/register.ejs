@@ -38,11 +38,13 @@
             var $selectGender = $('#select-gender')
             var userNameTimeoutId
             var passwordTimeoutId
+            var doNothing = true //默认状态什么没变
             var isPasswordSame = false // 默认两次密码不一致
             var isUserNameExist = true // 默认用户名已存在
 
             // 监听用户名输入
             $inputUserName.on('input', function() {
+                doNothing=false
                 // 做一个简单的防抖
                 if (userNameTimeoutId) {
                     clearTimeout(userNameTimeoutId)
@@ -67,6 +69,7 @@
 
             // 监听验证密码输入
             $inputPasswordRepeat.on('input', function () {
+                doNothing=false
                 // 做一个简单的防抖
                 if (passwordTimeoutId) {
                     clearTimeout(passwordTimeoutId)
@@ -91,6 +94,10 @@
                 e.preventDefault()
 
                 // 验证
+                if (doNothing){
+                    alert('没有输入用户名密码')
+                    return
+                }
                 if (isUserNameExist) {
                     alert('用户名已存在')
                     return
