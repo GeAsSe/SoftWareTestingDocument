@@ -1,7 +1,4 @@
-/**
- * @description 个人主页 test
- * @author 双越老师
- */
+
 
 const server = require('../server')
 const { Z_COOKIE, Z_USER_NAME } = require('../testUserInfo')

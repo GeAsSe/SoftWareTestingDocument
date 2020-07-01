@@ -1,7 +1,4 @@
-/**
- * @description 广场 test
- * @author 双越老师
- */
+
 
 const server = require('../server')
 const { Z_COOKIE } = require('../testUserInfo')

@@ -1,7 +1,4 @@
-/**
- * @description 微博 @ 关系 test
- * @author 双越老师
- */
+
 
 const server = require('../server')
 const { Z_COOKIE, L_COOKIE, L_USER_NAME } = require('../testUserInfo')

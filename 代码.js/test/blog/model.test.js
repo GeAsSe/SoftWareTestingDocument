@@ -1,7 +1,4 @@
-/**
- * @description 微博数据模型单元测试
- * @author 双越老师
- */
+
 
 const { Blog } = require('../../src/db/model/index')
 
